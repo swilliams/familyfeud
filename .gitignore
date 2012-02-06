@@ -10,3 +10,5 @@ TestResults
 DB/
 *.SCC
 FamilyFeud.Installer/Release/
+FamilyFeud.Objects/UpgradeLog.XML
+_UpgradeReport_Files/
