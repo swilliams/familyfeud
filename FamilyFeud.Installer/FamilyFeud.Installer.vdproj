@@ -15,13 +15,25 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_1C7E2C2FCB480ED5BC26F1DABCDE8F64"
+        "OwnerKey" = "8:_268BABF561C6494081DA1F73C00D9A49"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_268BABF561C6494081DA1F73C00D9A49"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3E57B9E484EF456BA3EEC7059EFA5676"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE37F3F105A145D3ABEFE42C578154D2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,20 +45,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DB86538C7274018F9BC3EE5DD4EC8DA3"
-        "OwnerKey" = "8:_268BABF561C6494081DA1F73C00D9A49"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EA440C5C94424EAF82187486FCE1C288"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_FE2C15C2FAFD4550B7802C453BE25005"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1C7E2C2FCB480ED5BC26F1DABCDE8F64"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_268BABF561C6494081DA1F73C00D9A49"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -129,10 +141,21 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06ECF152A5C34220A2FBBD97ED65D37B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1C7E2C2FCB480ED5BC26F1DABCDE8F64"
             {
-            "SourcePath" = "8:..\\..\\feud icon\\feud_installer.bmp"
-            "TargetName" = "8:feud_installer.bmp"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FamilyFeud.Objects, Version=1.0.4419.23617, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1C7E2C2FCB480ED5BC26F1DABCDE8F64"
+                    {
+                    "Name" = "8:FamilyFeud.Objects.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FamilyFeud.Objects.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0354106F277742DAB746D4C2FEF19761"
             "Condition" = "8:"
@@ -145,7 +168,47 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E57B9E484EF456BA3EEC7059EFA5676"
+            {
+            "SourcePath" = "8:..\\Resources\\feud_installer.bmp"
+            "TargetName" = "8:feud_installer.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_5EAB85E59E134F65AF056380F33088B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE37F3F105A145D3ABEFE42C578154D2"
+            {
+            "SourcePath" = "8:..\\Resources\\feud.ico"
+            "TargetName" = "8:feud.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_5EAB85E59E134F65AF056380F33088B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -166,52 +229,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DB86538C7274018F9BC3EE5DD4EC8DA3"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FamilyFeud.Objects, Version=1.0.1859.30448, Culture=neutral"
-                "ScatterAssemblies"
-                {
-                }
-            "SourcePath" = "8:FamilyFeud.Objects.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_0354106F277742DAB746D4C2FEF19761"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EA440C5C94424EAF82187486FCE1C288"
-            {
-            "SourcePath" = "8:..\\..\\feud icon\\feud.ico"
-            "TargetName" = "8:feud.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_0354106F277742DAB746D4C2FEF19761"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -320,7 +337,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_EA440C5C94424EAF82187486FCE1C288"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -451,7 +468,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -474,7 +491,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -532,7 +549,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -581,7 +598,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -613,7 +630,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -657,7 +674,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -702,7 +719,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -747,7 +764,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_06ECF152A5C34220A2FBBD97ED65D37B"
+                            "Value" = "8:"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"

@@ -15,7 +15,7 @@
     </SccProvider>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>..\..\feud icon\feud.ico</ApplicationIcon>
+    <ApplicationIcon>feud.ico</ApplicationIcon>
     <AssemblyKeyContainerName />
     <AssemblyName>FamilyFeud</AssemblyName>
     <AssemblyOriginatorKeyFile />
@@ -138,6 +138,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Content Include="App.ico" />
+    <Content Include="feud.ico" />
     <EmbeddedResource Include="FeudForm.resx">
       <DependentUpon>FeudForm.cs</DependentUpon>
     </EmbeddedResource>
