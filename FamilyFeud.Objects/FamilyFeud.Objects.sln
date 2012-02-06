@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyFeud.Objects", "FamilyFeud.Objects.csproj", "{BA0F0FBA-A95A-4846-A4CF-E5035E8B0181}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyFeud.Tests", "..\FamilyFeud.Tests\FamilyFeud.Tests.csproj", "{8FDF7E5C-CDC7-4976-BE6E-8B76A552EF6F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyFeud", "..\FamilyFeud\FamilyFeud.csproj", "{C1041FED-3E30-4B69-90C0-05BA99B83FED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FamilyFeud.Installer", "..\FamilyFeud.Installer\FamilyFeud.Installer.vdproj", "{58E37EBF-4085-42CD-BE9E-D24AFDF1F509}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = $/.Net/FamilyFeud.Objects
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = Feud\\FamilyFeud.Objects\\
+		SolutionUniqueID = {1988D0B0-FEFD-4AB3-9A0C-CB53C5095432}
+		SccProjectUniqueName1 = ..\\FamilyFeud.Installer\\FamilyFeud.Installer.vdproj
+		SccLocalPath1 = ..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Feud\\FamilyFeud.Installer\\
+		SccProjectUniqueName2 = FamilyFeud.Objects.csproj
+		SccLocalPath2 = ..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Feud\\FamilyFeud.Objects\\
+		SccProjectUniqueName3 = ..\\FamilyFeud.Tests\\FamilyFeud.Tests.csproj
+		SccLocalPath3 = ..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = Feud\\FamilyFeud.Tests\\
+		SccProjectUniqueName4 = ..\\FamilyFeud\\FamilyFeud.csproj
+		SccLocalPath4 = ..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = Feud\\FamilyFeud\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA0F0FBA-A95A-4846-A4CF-E5035E8B0181}.Debug.ActiveCfg = Debug|.NET
+		{BA0F0FBA-A95A-4846-A4CF-E5035E8B0181}.Debug.Build.0 = Debug|.NET
+		{BA0F0FBA-A95A-4846-A4CF-E5035E8B0181}.Release.ActiveCfg = Release|.NET
+		{BA0F0FBA-A95A-4846-A4CF-E5035E8B0181}.Release.Build.0 = Release|.NET
+		{8FDF7E5C-CDC7-4976-BE6E-8B76A552EF6F}.Debug.ActiveCfg = Debug|.NET
+		{8FDF7E5C-CDC7-4976-BE6E-8B76A552EF6F}.Debug.Build.0 = Debug|.NET
+		{8FDF7E5C-CDC7-4976-BE6E-8B76A552EF6F}.Release.ActiveCfg = Release|.NET
+		{8FDF7E5C-CDC7-4976-BE6E-8B76A552EF6F}.Release.Build.0 = Release|.NET
+		{C1041FED-3E30-4B69-90C0-05BA99B83FED}.Debug.ActiveCfg = Debug|.NET
+		{C1041FED-3E30-4B69-90C0-05BA99B83FED}.Debug.Build.0 = Debug|.NET
+		{C1041FED-3E30-4B69-90C0-05BA99B83FED}.Release.ActiveCfg = Release|.NET
+		{C1041FED-3E30-4B69-90C0-05BA99B83FED}.Release.Build.0 = Release|.NET
+		{58E37EBF-4085-42CD-BE9E-D24AFDF1F509}.Debug.ActiveCfg = Debug
+		{58E37EBF-4085-42CD-BE9E-D24AFDF1F509}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
