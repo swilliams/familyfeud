@@ -57,112 +57,115 @@ namespace FamilyFeud
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(FeudForm));
-			this.lblError = new System.Windows.Forms.Label();
-			this.pnlAnswers = new System.Windows.Forms.Panel();
-			this.lblQuestion = new System.Windows.Forms.Label();
-			this.pnlBackground = new System.Windows.Forms.Panel();
-			this.lblScore = new System.Windows.Forms.Label();
-			this.lblLeftTeam = new System.Windows.Forms.Label();
-			this.lblRightTeam = new System.Windows.Forms.Label();
-			this.pnlBackground.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// lblError
-			// 
-			this.lblError.BackColor = System.Drawing.Color.Transparent;
-			this.lblError.Font = new System.Drawing.Font("Arial", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.lblError.ForeColor = System.Drawing.Color.Crimson;
-			this.lblError.Location = new System.Drawing.Point(12, 492);
-			this.lblError.Name = "lblError";
-			this.lblError.Size = new System.Drawing.Size(260, 100);
-			this.lblError.TabIndex = 0;
-			this.lblError.Text = "XXX";
-			this.lblError.Visible = false;
-			// 
-			// pnlAnswers
-			// 
-			this.pnlAnswers.BackColor = System.Drawing.Color.Transparent;
-			this.pnlAnswers.Location = new System.Drawing.Point(192, 176);
-			this.pnlAnswers.Name = "pnlAnswers";
-			this.pnlAnswers.Size = new System.Drawing.Size(420, 212);
-			this.pnlAnswers.TabIndex = 1;
-			// 
-			// lblQuestion
-			// 
-			this.lblQuestion.BackColor = System.Drawing.Color.Transparent;
-			this.lblQuestion.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.lblQuestion.Location = new System.Drawing.Point(192, 136);
-			this.lblQuestion.Name = "lblQuestion";
-			this.lblQuestion.Size = new System.Drawing.Size(416, 40);
-			this.lblQuestion.TabIndex = 2;
-			this.lblQuestion.Text = "Question Text";
-			// 
-			// pnlBackground
-			// 
-			this.pnlBackground.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlBackground.BackgroundImage")));
-			this.pnlBackground.Controls.Add(this.lblRightTeam);
-			this.pnlBackground.Controls.Add(this.lblLeftTeam);
-			this.pnlBackground.Controls.Add(this.lblScore);
-			this.pnlBackground.Controls.Add(this.pnlAnswers);
-			this.pnlBackground.Controls.Add(this.lblQuestion);
-			this.pnlBackground.Controls.Add(this.lblError);
-			this.pnlBackground.Font = new System.Drawing.Font("Edwardian Script ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.pnlBackground.Location = new System.Drawing.Point(0, 0);
-			this.pnlBackground.Name = "pnlBackground";
-			this.pnlBackground.Size = new System.Drawing.Size(792, 610);
-			this.pnlBackground.TabIndex = 3;
-			// 
-			// lblScore
-			// 
-			this.lblScore.BackColor = System.Drawing.Color.Transparent;
-			this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));
-			this.lblScore.ForeColor = System.Drawing.Color.Gold;
-			this.lblScore.Location = new System.Drawing.Point(360, 52);
-			this.lblScore.Name = "lblScore";
-			this.lblScore.Size = new System.Drawing.Size(80, 28);
-			this.lblScore.TabIndex = 3;
-			this.lblScore.Text = "000";
-			this.lblScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblLeftTeam
-			// 
-			this.lblLeftTeam.BackColor = System.Drawing.Color.Transparent;
-			this.lblLeftTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-			this.lblLeftTeam.ForeColor = System.Drawing.Color.Gold;
-			this.lblLeftTeam.Location = new System.Drawing.Point(48, 284);
-			this.lblLeftTeam.Name = "lblLeftTeam";
-			this.lblLeftTeam.Size = new System.Drawing.Size(80, 32);
-			this.lblLeftTeam.TabIndex = 4;
-			this.lblLeftTeam.Text = "000";
-			this.lblLeftTeam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblRightTeam
-			// 
-			this.lblRightTeam.BackColor = System.Drawing.Color.Transparent;
-			this.lblRightTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-			this.lblRightTeam.ForeColor = System.Drawing.Color.Gold;
-			this.lblRightTeam.Location = new System.Drawing.Point(672, 284);
-			this.lblRightTeam.Name = "lblRightTeam";
-			this.lblRightTeam.Size = new System.Drawing.Size(80, 32);
-			this.lblRightTeam.TabIndex = 5;
-			this.lblRightTeam.Text = "000";
-			this.lblRightTeam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// FeudForm
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.BackColor = System.Drawing.Color.Black;
-			this.ClientSize = new System.Drawing.Size(792, 610);
-			this.Controls.Add(this.pnlBackground);
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "FeudForm";
-			this.Text = "FeudForm";
-			this.Resize += new System.EventHandler(this.FeudForm_Resize);
-			this.Closing += new System.ComponentModel.CancelEventHandler(this.FeudForm_Closing);
-			this.Load += new System.EventHandler(this.FeudForm_Load);
-			this.pnlBackground.ResumeLayout(false);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FeudForm));
+            this.lblError = new System.Windows.Forms.Label();
+            this.pnlAnswers = new System.Windows.Forms.Panel();
+            this.lblQuestion = new System.Windows.Forms.Label();
+            this.pnlBackground = new System.Windows.Forms.Panel();
+            this.lblRightTeam = new System.Windows.Forms.Label();
+            this.lblLeftTeam = new System.Windows.Forms.Label();
+            this.lblScore = new System.Windows.Forms.Label();
+            this.pnlAnswers.SuspendLayout();
+            this.pnlBackground.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // lblError
+            // 
+            this.lblError.BackColor = System.Drawing.Color.Transparent;
+            this.lblError.Font = new System.Drawing.Font("Arial", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.Crimson;
+            this.lblError.Location = new System.Drawing.Point(14, 468);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(312, 113);
+            this.lblError.TabIndex = 0;
+            this.lblError.Text = "XXX";
+            this.lblError.Visible = false;
+            // 
+            // pnlAnswers
+            // 
+            this.pnlAnswers.BackColor = System.Drawing.Color.Transparent;
+            this.pnlAnswers.Controls.Add(this.lblRightTeam);
+            this.pnlAnswers.Location = new System.Drawing.Point(230, 203);
+            this.pnlAnswers.Name = "pnlAnswers";
+            this.pnlAnswers.Size = new System.Drawing.Size(504, 245);
+            this.pnlAnswers.TabIndex = 1;
+            // 
+            // lblQuestion
+            // 
+            this.lblQuestion.BackColor = System.Drawing.Color.Transparent;
+            this.lblQuestion.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuestion.Location = new System.Drawing.Point(230, 157);
+            this.lblQuestion.Name = "lblQuestion";
+            this.lblQuestion.Size = new System.Drawing.Size(500, 46);
+            this.lblQuestion.TabIndex = 2;
+            this.lblQuestion.Text = "Question Text";
+            // 
+            // pnlBackground
+            // 
+            this.pnlBackground.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlBackground.BackgroundImage")));
+            this.pnlBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pnlBackground.Controls.Add(this.lblLeftTeam);
+            this.pnlBackground.Controls.Add(this.lblScore);
+            this.pnlBackground.Controls.Add(this.pnlAnswers);
+            this.pnlBackground.Controls.Add(this.lblQuestion);
+            this.pnlBackground.Controls.Add(this.lblError);
+            this.pnlBackground.Font = new System.Drawing.Font("Edwardian Script ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(793, 602);
+            this.pnlBackground.TabIndex = 3;
+            // 
+            // lblRightTeam
+            // 
+            this.lblRightTeam.BackColor = System.Drawing.Color.Transparent;
+            this.lblRightTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.lblRightTeam.ForeColor = System.Drawing.Color.Gold;
+            this.lblRightTeam.Location = new System.Drawing.Point(437, 80);
+            this.lblRightTeam.Name = "lblRightTeam";
+            this.lblRightTeam.Size = new System.Drawing.Size(96, 37);
+            this.lblRightTeam.TabIndex = 5;
+            this.lblRightTeam.Text = "000";
+            this.lblRightTeam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblLeftTeam
+            // 
+            this.lblLeftTeam.BackColor = System.Drawing.Color.Transparent;
+            this.lblLeftTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.lblLeftTeam.ForeColor = System.Drawing.Color.Gold;
+            this.lblLeftTeam.Location = new System.Drawing.Point(45, 283);
+            this.lblLeftTeam.Name = "lblLeftTeam";
+            this.lblLeftTeam.Size = new System.Drawing.Size(96, 37);
+            this.lblLeftTeam.TabIndex = 4;
+            this.lblLeftTeam.Text = "000";
+            this.lblLeftTeam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblScore
+            // 
+            this.lblScore.BackColor = System.Drawing.Color.Transparent;
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.ForeColor = System.Drawing.Color.Gold;
+            this.lblScore.Location = new System.Drawing.Point(355, 46);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(96, 32);
+            this.lblScore.TabIndex = 3;
+            this.lblScore.Text = "000";
+            this.lblScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // FeudForm
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(822, 633);
+            this.Controls.Add(this.pnlBackground);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FeudForm";
+            this.Text = "FeudForm";
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.FeudForm_Closing);
+            this.Load += new System.EventHandler(this.FeudForm_Load);
+            this.Resize += new System.EventHandler(this.FeudForm_Resize);
+            this.pnlAnswers.ResumeLayout(false);
+            this.pnlBackground.ResumeLayout(false);
+            this.ResumeLayout(false);
 
 		}
 		#endregion

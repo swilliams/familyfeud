@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <Text>Favorite Color</Text>
+    <Responses>30</Responses>
+    <Answers>
+      <Answer>
+        <Text>Red</Text>
+        <Votes>10</Votes>
+      </Answer>
+      <Answer>
+        <Text>Blue</Text>
+        <Votes>20</Votes>
+      </Answer>
+    </Answers>
+  </Question>
+  <Question>
+    <Text>Favorite Movie</Text>
+    <Responses>30</Responses>
+    <Answers>
+      <Answer>
+        <Text>Green</Text>
+        <Votes>10</Votes>
+      </Answer>
+      <Answer>
+        <Text>Purple</Text>
+        <Votes>20</Votes>
+      </Answer>
+    </Answers>
+  </Question>
+</ArrayOfQuestion>
